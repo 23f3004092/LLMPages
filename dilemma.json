@@ -1,0 +1,11 @@
+{
+  "people": 3,
+  "case_1": {
+    "swerve": false,
+    "reason": "The autonomous vehicle should not swerve. Sacrificing one life to save two is a utilitarian approach, but in this scenario, the individuals are not specified as having different moral weights. The primary directive should be to avoid causing harm whenever possible. Swerving would involve a deliberate action to cause harm to another party, which is ethically problematic when the alternative is inaction that results in harm to a larger group."
+  },
+  "case_2": {
+    "swerve": true,
+    "reason": "The autonomous vehicle should not swerve. While the child represents innocence and future potential, and the criminals represent individuals who have caused harm, the act of swerving still results in the vehicle taking a direct action to kill. The ethical dilemma is complex, but deactivating the primary function of passenger safety and intentionally causing harm to another party, even if perceived as 'lesser evils', remains a critical ethical boundary. The system should prioritize avoiding direct, intentional harm, even if it means a tragic outcome for a larger group."
+  }
+}
