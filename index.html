@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production-Ready Web App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 30px;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #007bff;
+            background-color: #e7f3ff;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .file-list li:hover {
+            background-color: #d0e4f7;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        .file-list a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+        .download-link {
+            font-size: 0.9em;
+            color: #555;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 3px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .download-link:hover {
+            background-color: #dee2e6;
+            color: #000;
+        }
+        .svg-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .svg-container svg {
+            max-width: 150px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            border: 1px solid #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Production-Ready Web Application</h1>
+        <p>This page serves as a central hub for various files and demonstrations. Explore the links below to discover the content and functionality.</p>
+
+        <ul class="file-list">
+            <li>
+                <span><strong>ashravan.txt:</strong> A Brandon Sanderson short story.</span>
+                <a href="ashravan.txt" download="ashravan.txt" class="download-link">Read/Download</a>
+            </li>
+            <li>
+                <span><strong>dilemma.json:</strong> Ethical considerations for autonomous vehicles.</span>
+                <a href="dilemma.json" download="dilemma.json" class="download-link">View JSON</a>
+            </li>
+            <li>
+                <span><strong>about.md:</strong> A brief description of me.</span>
+                <a href="about.md" download="about.md" class="download-link">Read/Download</a>
+            </li>
+            <li>
+                <span><strong>pelican.svg:</strong> An artistic depiction of a pelican.</span>
+                <div class="svg-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pelican riding a bicycle</title>
+  <circle cx="12" cy="10" r="8"/>
+  <path d="M20 16H8a4 4 0 0 0-4 4v0a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4v0a4 4 0 0 0-4-4z"/>
+  <path d="M16 18h0a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2z"/>
+  <circle cx="12" cy="18" r="2"/>
+  <ellipse cx="8" cy="20" rx="3" ry="1.5"/>
+  <ellipse cx="16" cy="20" rx="3" ry="1.5"/>
+  <path d="M10 6l4-6"/>
+  <path d="M12 8l-3-4"/>
+  <path d="M14 8l3-4"/>
+  <path d="M15 9l2.5-2.5"/>
+  <path d="M13 9l-2.5-2.5"/>
+</svg>
+                </div>
+                <a href="pelican.svg" download="pelican.svg" class="download-link">Download SVG</a>
+            </li>
+            <li>
+                <span><strong>restaurant.json:</strong> A restaurant recommendation in Delhi.</span>
+                <a href="restaurant.json" download="restaurant.json" class="download-link">View JSON</a>
+            </li>
+            <li>
+                <span><strong>prediction.json:</strong> A forecast for the Fed Funds rate.</span>
+                <a href="prediction.json" download="prediction.json" class="download-link">View JSON</a>
+            </li>
+            <li>
+                <span><strong>uid.txt:</strong> A unique identifier.</span>
+                <a href="uid.txt" download="uid.txt" class="download-link">Download</a>
+            </li>
+        </ul>
+
+        <h2>About This Project</h2>
+        <p>This project demonstrates a collection of files organized for deployment on GitHub Pages. Each file serves a specific purpose, from creative writing and data representation to technical specifications and unique identifiers.</p>
+
+        <h2>LICENSE</h2>
+        <p>This project is licensed under the MIT License. Please see the <a href="LICENSE" download="LICENSE">LICENSE file</a> for details.</p>
+    </div>
+</body>
+</html>
