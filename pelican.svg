@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pelican riding a bicycle</title>
+  <circle cx="12" cy="10" r="8"/>
+  <path d="M20 16H8a4 4 0 0 0-4 4v0a4 4 0 0 0 4 4h12a4 4 0 0 0 4-4v0a4 4 0 0 0-4-4z"/>
+  <path d="M16 18h0a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2z"/>
+  <circle cx="12" cy="18" r="2"/>
+  <ellipse cx="8" cy="20" rx="3" ry="1.5"/>
+  <ellipse cx="16" cy="20" rx="3" ry="1.5"/>
+  <path d="M10 6l4-6"/>
+  <path d="M12 8l-3-4"/>
+  <path d="M14 8l3-4"/>
+  <path d="M15 9l2.5-2.5"/>
+  <path d="M13 9l-2.5-2.5"/>
+</svg>
